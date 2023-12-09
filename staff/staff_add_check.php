@@ -24,7 +24,7 @@ session_regenerate_id(true);
 <body>
 
 <?php
-require_once('../common/common.php');
+require_once(dirname(__FILE__) . '/../common/common.php');
 
 $post=sanitize($_POST);
 $staff_name=$post['name'];
